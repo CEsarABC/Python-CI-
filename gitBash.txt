@@ -1,0 +1,76 @@
+cd folder
+cd ..
+ls
+ls -l   show vertical list
+ls -l r*  all files starting with r
+ls -a all even hidden
+
+ls -la convining
+
+clear
+
+ctl + l clean the screen
+
+git --version
+
+git config --global user.name "cesar bernal"
+
+git config --global user.email "cesarbworkmail@gmail.com"
+
+git config --list #info in the configuration file
+
+git config --help
+git config --add
+.... # we can use all the commands
+
+
+to start a git repository
+we go to the folder in which we want the repository to be based
+
+git init  //starting the repository
+git status //checking the files
+
+//ignoring some files or folders
+
+touch .gitignore //creates the ignore file
+
+
+if we open this file we can insert the names of files and folders
+.project   //folder
+*.py       //all files with the extension .py
+wrk.txt    //just a file
+
+git add -A   //add all files
+git add text.txt //add file
+
+// remove files from the staging area or commit
+git reset text.txt  //goes back to untracked files
+
+// to remove a folder thats was already commited
+git rm --cached -r .idea
+
+git add -A //adding to staging area
+git commit -m "this is my first commit
+
+git log //gives the commits info
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/CEsarABC/Python-CI-.git
+git push -u origin master
+
+git remote -v  // shows the place where the repository is
+git branch -a  // shows all branches
+
+git pull origin master//get any changes from other contributors
+
+git push origin master //push all the changes
+
+
+/// work flow
+
+
+
+
+
