@@ -72,7 +72,11 @@ git push origin master //push all the changes
 
 we can create branches to work on features of the project
 
-git branch myNewBranch
+git branch myNewBranch  /creates a new branch
+git branch    /gives info on branches and active branch
+
+to change the active branch 
+git checkout myNewBranch
 
 
 
