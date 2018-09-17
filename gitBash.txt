@@ -5,7 +5,7 @@ ls -l   show vertical list
 ls -l r*  all files starting with r
 ls -a all even hidden
 
-ls -la convining
+ls -la combining
 
 clear
 
@@ -44,9 +44,9 @@ git add -A   //add all files
 git add text.txt //add file
 
 // remove files from the staging area or commit
-git reset text.txt  //goes back to untracked files
+git reset text.txt  //goes back to un-tracked files
 
-// to remove a folder thats was already commited
+// to remove a folder that was already committed
 git rm --cached -r .idea
 
 git add -A //adding to staging area
@@ -70,7 +70,9 @@ git push origin master //push all the changes
 
 /// work flow
 
+we can create branches to work on features of the project
 
+git branch myNewBranch
 
 
 
