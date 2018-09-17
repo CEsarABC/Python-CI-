@@ -24,3 +24,7 @@ assert count_upper_case('$%&') == 0, 'Special characters'
 print(count_upper_case('Hello World of Tanks'))
 
 
+x = 10
+y = 20
+
+print(x * y)
