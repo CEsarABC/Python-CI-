@@ -1,0 +1,38 @@
+# this is a list
+
+names = ['cesar', 'pablo', 'roger', 'jason', 'gabi', 'nicolas', 'kit']
+
+print(names[2:4])
+print(names[::2])
+
+del names[0]
+print(names)
+
+names.insert(0, 'jhon')
+
+print(names)
+
+names.insert(4, 'ray')
+
+print(names)
+
+names.append('oscar')
+
+print(names)
+
+# .sort() function will sort alphabetically the items
+names.sort()
+
+print(names)
+print('\n')
+
+# this is a Tuple
+# A tuple is denoted by the parentheses (). And the information contained within are the values of that tuple.
+# We can get values from tuples in the same way that we extract data from lists using indexes.
+# And similarly, we can iterate over tuples just like lists
+
+user = ('zombie', 'cesar', 'bernal')
+
+print('Username: %s' % user[0])
+print('First name: %s' % user[1])
+print('Second name: %s' % user[2])

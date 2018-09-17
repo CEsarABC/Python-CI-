@@ -1,0 +1,8 @@
+print("\t\"What\'s happening?\" he questioned as he awoke. During is slumber a squirrel managed to make it into his backpack. This was bad. Without that food he was going to have to cut his camping trip short and head home. And he wouldn\'t get to return for another year!")
+print("\n")
+print("\tThe next morning he decided to pack up his things and start home. As he was wandering though the forest he stumbled on a tree root. He landed face first on a half buried wooden sign post. On the sign post was written:")
+print("\n\n\n")
+print("\t\t  /|\\")
+print("\t\t / | \\")
+print("\t\t   |")
+print("\t  This way to the golden cave.\n\t\tBeware!")
