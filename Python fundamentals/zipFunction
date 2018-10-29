@@ -1,0 +1,61 @@
+Zip. With zip we can act upon two lists at once. Zip() is a built-in function.
+ We pass it two iterables, like lists, and it enumerates them together.
+
+ items1 = ["blue", "red", "green", "white"]
+items2 = ["sky", "sunset", "lawn", "pillow"]
+
+# Zip the two lists and access pairs together.
+for item1, item2 in zip(items1, items2):
+    print(item1, "...", item2)
+
+Output
+
+blue ... sky
+red ... sunset
+green ... lawn
+white ... pillow
+
+###################Python program that uses zip, unequal lengths
+
+list1 = [10, 20, 30, 40]
+list2 = [11, 21, 31]
+
+# Zip the two lists.
+result = zip(list1, list2)
+
+# The zipped result is only 3 elements long.
+# ... The fourth element of list1 was discarded.
+for element1, element2 in result:
+    print(element1, element2)
+
+Output
+
+10 11
+20 21
+30 31
+
+#################Python program that shows zip object
+
+list1 = [0]
+list2 = [1]
+
+# The result is a zip object.
+result = zip(list1, list2)
+print(result)
+
+Output
+
+<zip object at 0x02884120>
+
+###########Python program that converts zip object to list
+
+# Zip up these two lists.
+zipped = zip([1, 2], [3, 4])
+
+# Convert the zip object into a list.
+result_list = list(zipped)
+print(result_list)
+
+Output
+
+[(1, 3), (2, 4)]
