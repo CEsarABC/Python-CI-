@@ -21,11 +21,25 @@ assert count_upper_case('AA') == 2, 'One upper case' # count of upper case shoul
 assert count_upper_case('a') == 0, 'One lower case'
 assert count_upper_case('$%&') == 0, 'Special characters'
 
+<<<<<<< HEAD
 print('the test passed')
+=======
+print(count_upper_case('Hello World of Tanks'))
+print('all tests passed')
+>>>>>>> 6f485195a8d058c43c86beb388904fb9e61ad733
+
+print(count_upper_case('This Is My Machine'))
 
 
-x = 10
-y = 20
+def count_upper_case1(message):
+    return sum([1 for c in message])
 
-print(x * y)
-print(x-y)
+
+print(count_upper_case1('Hello World of Tanks'))
+
+
+def count_upper_case2(message):
+    return sum([1 for c in message if c.islower() and c == 'a'])
+
+
+print(count_upper_case2('Hello World of Tanks'))
