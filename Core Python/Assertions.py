@@ -15,4 +15,6 @@ y1 = 3
 
 print(x1 + y1)
 
-assert x1 > y1, 'x should be less than y'
+assert x1 > y1, 'x1 should be less than y1'.format(x1,y1)
+
+print()

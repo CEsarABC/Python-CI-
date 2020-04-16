@@ -17,11 +17,11 @@ print(count_upper_case('Hello World of Tanks'))
   the result is what is expected after the counter function is active'''
 
 assert count_upper_case('') == 0, 'empty string'   # count of empty strings  = 0
-assert count_upper_case('AS') == 2, 'One upper case' # count of upper case should give two
+assert count_upper_case('AA') == 2, 'One upper case' # count of upper case should give two
 assert count_upper_case('a') == 0, 'One lower case'
 assert count_upper_case('$%&') == 0, 'Special characters'
 
-print(count_upper_case('Hello World of Tanks'))
+print('the test passed')
 
 
 x = 10
