@@ -1,7 +1,14 @@
-myList = [1,2,3,4,5,6,7,8,9]
+cart = {}
+cart[id] = 4
 
-print(myList)
+print(type(cart[id]))
+print(type(cart))
 
-del myList[3]
+def createSession():
+    cart = {}
+    cart[id] = 4
+    cart['name'] = 'Cesar'
+    cart['age']= 34
+    print(cart)
 
-print(myList)
+createSession()
